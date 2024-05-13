@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color: white;
+    font-size: 10px;
+}
+
+footer a {
+    color: orangered;
+    background-color: transparent;
+    padding: 5px 15px;
+    border: solid orangered 2px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+footer a:hover {
+    background-color: orangered;
+    color: white;
+}
